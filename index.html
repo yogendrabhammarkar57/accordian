@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/477bfa2aa6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Main Container -->
+   <div class="w-screen mt-24 flex justify-center items-center">
+    <!-- inner content -->
+    <div class=" p-9 w-[700px] justify-center rounded-xl items-center flex flex-col border border-gray-700">
+        <div>
+            <h1 class="text-3xl font-semibold mb-3">Frequently Asked questions</h1>
+        <span>Here are some of the frequently asked questions</span>
+        </div>
+
+        <!-- Accordian -->
+        <div class="mt-6">
+            <div class="flex flex-col gap-2">
+                <div class="w-96 border-2 rounded-xl text-white font-semibold bg-gray-900 p-3 flex justify-between items-center">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i onclick="remove1()" class="fa-solid fa-chevron-up cursor-pointer"></i>
+                </div>
+                <div id="acc1" class=" hidden max-w-96 border-2 border-gray-900 p-2 rounded-xl" >
+                    <p class=" text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident debitis quos deleniti, vel in assumenda doloribus tempora necessitatibus magnam quibusdam, dolor ab? Dolorem at odio, modi nobis ducimus omnis!</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="w-96 border-2 rounded-xl text-white font-semibold bg-gray-900 p-3 flex justify-between items-center">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i onclick="remove2()" class="fa-solid fa-chevron-up cursor-pointer"></i>
+                </div>
+                <div id="acc2" class=" hidden max-w-96 border-2 border-gray-900 p-2 rounded-xl" >
+                    <p class=" text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident debitis quos deleniti, vel in assumenda doloribus tempora necessitatibus magnam quibusdam, dolor ab? Dolorem at odio, modi nobis ducimus omnis!</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="w-96 border-2 rounded-xl text-white font-semibold bg-gray-900 p-3 flex justify-between items-center">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i onclick="remove3()" class="fa-solid fa-chevron-up cursor-pointer"></i>
+                </div>
+                <div id="acc3" class=" hidden max-w-96 border-2 border-gray-900 p-2 rounded-xl" >
+                    <p class=" text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident debitis quos deleniti, vel in assumenda doloribus tempora necessitatibus magnam quibusdam, dolor ab? Dolorem at odio, modi nobis ducimus omnis!</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="w-96 border-2 rounded-xl text-white font-semibold bg-gray-900 p-3 flex justify-between items-center">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i onclick="remove4()" class="fa-solid fa-chevron-up cursor-pointer"></i>
+                </div>
+                <div id="acc4" class=" hidden max-w-96 border-2 border-gray-900 p-2 rounded-xl" >
+                    <p class=" text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident debitis quos deleniti, vel in assumenda doloribus tempora necessitatibus magnam quibusdam, dolor ab? Dolorem at odio, modi nobis ducimus omnis!</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="w-96 border-2 rounded-xl text-white font-semibold bg-gray-900 p-3 flex justify-between items-center">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <i onclick="remove5()" class="fa-solid fa-chevron-up cursor-pointer"></i>
+                </div>
+                <div id="acc5" class=" hidden max-w-96 border-2 border-gray-900 p-2 rounded-xl" >
+                    <p class=" text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident debitis quos deleniti, vel in assumenda doloribus tempora necessitatibus magnam quibusdam, dolor ab? Dolorem at odio, modi nobis ducimus omnis!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
